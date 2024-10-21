@@ -46,48 +46,52 @@
   <tr>
     <td rowspan="109"><strong>插件</strong></td>
   <tr>
-    <td>01</td>
+    <td>001</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/BoxJs.sgmodule">BoxJs</a></td>
   </tr>
   <tr>
-    <td>02</td>
+    <td>002</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/Script-Hub.sgmodule">Script-Hub</a></td>
   </tr>
   <tr>
-    <td>03</td>
+    <td>003</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/YouTube.sgmodule">YouTube去广告</a></td>
   </tr>
   <tr>
-    <td>04</td>
+    <td>004</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/TikTok.sgmodule">TikTok多区域解锁</a></td>
   </tr>
   <tr>
-    <td>05</td>
+    <td>005</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/Spotify.sgmodule">Spotify解锁</a></td>
   </tr>
   <tr>
-    <td>06</td>
+    <td>006</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/WeiBo.sgmodule">微博去广告</a></td>
   </tr>
   <tr>
-    <td>07</td>
+    <td>007</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/Talkatone.sgmodule">Talkatone去广告</a></td>
   </tr>
   </tr>
-    <td>08</td>
+    <td>008</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/BiliBili.sgmodule">bilibili去广告</a></td>
   </tr>
   </tr>
-    <td>09</td>
+    <td>009</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/PinDuoDuo.sgmodule">拼多多去广告</a></td>
   </tr>
   </tr>
-    <td>10</td>
+    <td>010</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/CaiYun.sgmodule">彩云天气 Pro</a></td>
   </tr>
   </tr>
-    <td>11</td>
+    <td>011</td>
     <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/BlockUpdate.sgmodule">屏蔽系统更新</a></td>
+  </tr>
+  </tr>
+    <td>012</td>
+    <td><a href="https://raw.githubusercontent.com/myouhi/Surge/master/module/12306.sgmodule">12306去广告</a></td>
   </tr>
   </tr>
 </table>
