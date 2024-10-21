@@ -1,0 +1,19 @@
+#!name=iOS Tasks Module
+#!desc=iOS Tasks 模块配置
+
+[Script]
+# 脚本名 = type=cron,cronexp=表达式,script-path=脚本链接,script-update-interval=0
+
+哔哩哔哩签到 = type=cron,cronexp=30 7 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=0
+
+阿里网盘签到 = type=cron,cronexp=12 0 * * *,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js,script-update-interval=0
+
+喜马拉雅签到 = type=cron,cronexp=35 8 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/xmly.js,timeout=15,wake-system=1,script-update-interval=0
+
+雨晨ios签到 = type=cron,cronexp=0 8 * * *,script-path=https://gist.githubusercontent.com/Sliverkiss/9aab5b214f3145e39639a2581e83bb27/raw/yuchenios.js,script-update-interval=0
+
+WPS_PC签到 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/wps.js,script-update-interval=0
+
+吾爱破解签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/52pojie.js,timeout=60
+
+𝟒𝐊世界每日签到 = type=cron,cronexp=0 6 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/4ksj.js,timeout=60
