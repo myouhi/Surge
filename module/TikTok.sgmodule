@@ -1,5 +1,5 @@
 #!name=TikTok
-#!desc=TikTok自定义解锁地区，需要配置此插件至对应地区的节点
+#!desc=TikTok自定义解锁地区，需要配置此插件至对应地区的节点。app版本 ≤ 21.1.0
 #!arguments=区域解锁:US
 #!arguments-desc=默认区域: 美国 = US \n\n台湾 = TW \n日本 = JP \n韩国 = KR \n泰国 = TH \n越南 = VN \n英国 = UK \n法国 = FR \n德国 = DE \n美国 = US \n巴西 = BR \n俄罗斯 = RU \n墨西哥 = MX \n土耳其 = TR \n西班牙 = ES \n阿根廷 = AR \n新加坡 = SG \n菲律宾 = PH \n马来西亚 = MY
 [URL Rewrite]
