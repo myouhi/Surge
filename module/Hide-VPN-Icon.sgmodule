@@ -1,6 +1,6 @@
 #!name=Hide VPN Icon
 #!desc=隐藏状态栏的系统VPN图标（该模块可能会导致「Cannot allocate memory」系统错误，请谨慎使用）。
-#!system=iOS
+#!system=ios
 #!category = 屏蔽插件
 
 [General]
