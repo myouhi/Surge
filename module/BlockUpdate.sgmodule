@@ -2,7 +2,7 @@
 #!desc=屏蔽 iOS 系统更新。
 #!arguments=参数设置:REJECT
 #!arguments-desc=参数设置：[REJECT]
-#!category = 屏蔽更新系统
+#!category = 屏蔽插件
 
 [Rule]
 DOMAIN,mesu.apple.com,{{{参数设置}}}
