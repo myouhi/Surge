@@ -1,0 +1,8 @@
+#!name=京东比价
+#!desc=显示历史价格
+
+[Script]
+京东比价 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/jd/jd_price.js, requires-body=true
+
+[MITM]
+hostname = %INSERT% api.m.jd.com
