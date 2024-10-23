@@ -23,8 +23,8 @@ https://raw.githubusercontent.com/myouhi/Surge/master/tasks/Cookie.sgmodule
 # 模块
 
 * [BoxJs](https://raw.githubusercontent.com/myouhi/Surge/master/module/BoxJs.sgmodule)
-* [Script-Hub.Beta](https://raw.githubusercontent.com/myouhi/Surge/master/module/Script_Hub.Beta.sgmodule)
-* [Sub-Store](https://raw.githubusercontent.com/myouhi/Surge/master/module/Sub_Store.sgmodule)
+* [Script-Hub.Beta](https://raw.githubusercontent.com/myouhi/Surge/master/module/Script-Hub.Beta.sgmodule)
+* [Sub-Store](https://raw.githubusercontent.com/myouhi/Surge/master/module/Sub-Store.sgmodule)
 * [12306去广告](https://raw.githubusercontent.com/myouhi/Surge/master/module/12306.sgmodule)
 * [哔哩哔哩去广告](https://raw.githubusercontent.com/myouhi/Surge/master/module/BiliBili.sgmodule)
 * [Talkatone去广告](https://raw.githubusercontent.com/myouhi/Surge/master/module/Talkatone.sgmodule)
