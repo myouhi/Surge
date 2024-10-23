@@ -1,0 +1,11 @@
+#!name=屏蔽系统更新
+#!desc=屏蔽 iOS 系统更新。
+#!arguments=参数设置:REJECT
+#!arguments-desc=参数设置：[REJECT]
+#!category = 屏蔽更新系统
+
+[Rule]
+DOMAIN,mesu.apple.com,{{{参数设置}}}
+DOMAIN,gdmf.apple.com,{{{参数设置}}}
+DOMAIN,updates-http.cdn-apple.com,{{{参数设置}}}
+DOMAIN,xp.apple.com,{{{参数设置}}}

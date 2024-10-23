@@ -1,0 +1,14 @@
+#!name=TikTok
+#!desc=TikTok自定义解锁地区，需要配置此插件至对应地区的节点
+#!arguments=区域解锁:US
+#!arguments-desc=默认区域: 美国 = US \n\n台湾 = TW \n日本 = JP \n韩国 = KR \n泰国 = TH \n越南 = VN \n英国 = UK \n法国 = FR \n德国 = DE \n美国 = US \n巴西 = BR \n俄罗斯 = RU \n墨西哥 = MX \n土耳其 = TR \n西班牙 = ES \n阿根廷 = AR \n新加坡 = SG \n菲律宾 = PH \n马来西亚 = MY
+#!category = 解锁去广告
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) {{{区域解锁}}} 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
+
+[MITM]
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com

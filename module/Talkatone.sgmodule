@@ -1,0 +1,61 @@
+#!name = Talkatone
+#!desc = 移除Talkatone各类广告
+#!arguments=参数设置:REJECT
+#!arguments-desc=参数设置：[REJECT]
+#!category = 去广告
+
+[Rule]
+DOMAIN, aax-fe-sin.amazon-adsystem.com,{{{参数设置}}}
+DOMAIN, aax-fe.amazon-adsystem.com,{{{参数设置}}}
+DOMAIN, aax.amazon-adsystem.com,{{{参数设置}}}
+DOMAIN, ads.inmobi.com,{{{参数设置}}}
+DOMAIN, ads.pubmatic.com,{{{参数设置}}}
+DOMAIN, app-analytics-services.com,{{{参数设置}}}
+DOMAIN, au.w.inmobi.com,{{{参数设置}}}
+DOMAIN, b.de.inmobi.com,{{{参数设置}}}
+DOMAIN, bidder.criteo.com,{{{参数设置}}}
+DOMAIN, c.amazon-adsystem.com,{{{参数设置}}}
+DOMAIN, cdn-f.adsmoloco.com,{{{参数设置}}}
+DOMAIN, cdn.liftoff-creatives.io,{{{参数设置}}}
+DOMAIN, cdn.mobilefuse.com,{{{参数设置}}}
+DOMAIN, cdn2.inner-active.mobi,{{{参数设置}}}
+DOMAIN, config.inmobi.com,{{{参数设置}}}
+DOMAIN, cr.adsappier.com,{{{参数设置}}}
+DOMAIN, dspbeacons.ihasdsp.inmobi.com,{{{参数设置}}}
+DOMAIN, dspbeacons.old.ihasdsp.inmobi.com,{{{参数设置}}}
+DOMAIN, ep7.facebook.com,{{{参数设置}}}
+DOMAIN, et-eus.w.inmobi.com,{{{参数设置}}}
+DOMAIN, ets-ap-southeast-1.track.smaato.net,{{{参数设置}}}
+DOMAIN, exchange-b-events.inner-active.mobi,{{{参数设置}}}
+DOMAIN, firebase-settings.crashlytics.com,{{{参数设置}}}
+DOMAIN, firebaseinstallations.googleapis.com,{{{参数设置}}}
+DOMAIN, firebaselogging-pa.googleapis.com,{{{参数设置}}}
+DOMAIN, firebaseremoteconfig.googleapis.com,{{{参数设置}}}
+DOMAIN, googleads.g.doubleclick-cn.net,{{{参数设置}}}
+DOMAIN, gum.criteo.com,{{{参数设置}}}
+DOMAIN, i.l-dsp.inmobicdn.net,{{{参数设置}}}
+DOMAIN, i.l.inmobicdn.net,{{{参数设置}}}
+DOMAIN, ic.de.inmobi.com,{{{参数设置}}}
+DOMAIN, impression-asia.liftoff.io,{{{参数设置}}}
+DOMAIN, impression.link,{{{参数设置}}}
+DOMAIN, ins.track.tappx.com,{{{参数设置}}}
+DOMAIN, itunes.apple.com,{{{参数设置}}}
+DOMAIN, lh3.googleadsserving.cn,{{{参数设置}}}
+DOMAIN, mads.amazon-adsystem.com,{{{参数设置}}}
+DOMAIN, mfx.mobilefuse.com,{{{参数设置}}}
+DOMAIN, mt-usw.appiersig.com,{{{参数设置}}}
+DOMAIN, ow.pubmatic.com,{{{参数设置}}}
+DOMAIN, pagead2.googlesyndication-cn.com,{{{参数设置}}}
+DOMAIN, sdk-dnt.ad.smaato.net,{{{参数设置}}}
+DOMAIN, sdk-files.smaato.net,{{{参数设置}}}
+DOMAIN, sdk-hb-cfg.smaato.net,{{{参数设置}}}
+DOMAIN, skadnetworks.fyber.com,{{{参数设置}}}
+DOMAIN, ssp.api.tappx.com,{{{参数设置}}}
+DOMAIN, supply.inmobicdn.net,{{{参数设置}}}
+DOMAIN, tpc.googlesyndication-cn.com,{{{参数设置}}}
+DOMAIN, tr-asia.adsmoloco.com,{{{参数设置}}}
+DOMAIN, view.adjust.com,{{{参数设置}}}
+DOMAIN, vst.c.appier.net,{{{参数设置}}}
+DOMAIN, wv.inner-active.mobi,{{{参数设置}}}
+DOMAIN, www.googletagservices-cn.com,{{{参数设置}}}
+DOMAIN, www.smaato.com,{{{参数设置}}}

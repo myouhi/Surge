@@ -1,0 +1,52 @@
+#!name = 芒果TV会员
+#!desc = 国内影视平台去广告，解锁芒果TV会员（含国区，美区，平板端）。电视端不可用。
+#!category = 解锁去广告
+
+[URL Rewrite]
+# 无用请求
+^http:\/\/[\d\.]+:\d{5}\/\?cmd=indexes - reject
+
+[Map Local]
+# 底部tab红点
+^https:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? data-type=text data="{}" status-code=200
+
+# 播放器界面
+^https:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo data-type=text data="{}" status-code=200
+
+# 升级弹窗
+^https:\/\/mobile\.api\.mgtv\.com\/v2\/mobile\/checkUpdate\? data-type=text data="{}" status-code=200
+
+# 播放详情页
+^http:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/cms\/list\? data-type=text data="{}" status-code=200
+
+# 搜索框填充词
+^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v1\? data-type=text data="{}" status-code=200
+
+[Script]
+# 会员解锁 (国区,美区,平板端)
+mgtv2 = type=http-request, pattern=^https:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\?, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv2.js, timeout=60
+mgtv2 = type=http-request, pattern=^https:\/\/(mobile|pad|pcc)\.api\.mgtv\.com\/v8\/video\/getSource\?, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv2.js, timeout=60
+
+# 我的页面
+mgtv1 = type=http-response, pattern=^https:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\?, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv1.js, requires-body=true, max-size=-1, timeout=60
+
+# 首页信息流,顶部tab
+mgtv1 = type=http-response, pattern=^http:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\?, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv1.js, requires-body=true, max-size=-1, timeout=60
+mgtv1 = type=http-response, pattern=^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v1\/channel\/(index|vrsList)\/\w, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv1.js, requires-body=true, max-size=-1, timeout=60
+
+# 底部tab
+mgtv1 = type=http-response, pattern=^https:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv1.js, requires-body=true, max-size=-1, timeout=60
+mgtv1 = type=http-response, pattern=^https:\/\/mobile\.api\.mgtv\.com\/v10\/video\/info\?, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv1.js, requires-body=true, max-size=-1, timeout=60
+mgtv1 = type=http-response, pattern=^https:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/info\?, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv1.js, requires-body=true, max-size=-1, timeout=60
+mgtv1 = type=http-response, pattern=^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\?, script-path=https://raw.githubusercontent.com/myouhi/Surge/master/scripts/mgtv/mgtv1.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% *.mgtv.com
+
+
+
+
+
+
+
+
