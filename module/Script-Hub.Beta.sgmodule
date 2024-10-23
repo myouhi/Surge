@@ -1,5 +1,5 @@
 #!name=Script-Hub
-#!desc=重写 & 规则集转换: https://script.hub
+#!desc=https://script.hub
 #!arguments=Notify:开启通知
 #!arguments-desc=Notify:\nScriptHub通知设置, 可选 开启通知, 关闭通知, 跟随链接
 #!category = 重写 & 规则集转换
