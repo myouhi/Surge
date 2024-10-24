@@ -74,11 +74,11 @@ https://raw.githubusercontent.com/myouhi/Surge/master/tasks/Cookie.sgmodule
   </tr>
 </table>
 
-## 可莉的 Loon 资源
-> 插件列表在页面下方，末尾附有新手配置图解。
+## Surge 插件资源
+> 集合一些大家常用的插件模块
 <table>
   <tr>
-    <td>https://github.com/luestr/ProxyResource</td>
+    <td>https://surge.qingr.moe</td>
   </tr>
 </table>
 
