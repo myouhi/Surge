@@ -1,0 +1,13 @@
+#!name=WPS_PC [签到]
+#!desc=每日定时签到,用手机或者电脑进入 https://vip.wps.cn/home 登录后自动获取cookie.
+#!arguments=定时签到:1 0 * * * ,禁用脚本:WPS_PC[Cookie],禁用MITM:hostname
+#!arguments-desc=定时签到：Cron表达式，默认每日 0点1 执行。\n\n禁用脚本：禁用获取授权脚本，输入 # 表示禁用。\n\n禁用MITM：禁用MITM主机名，输入 # 表示禁用。
+#!category=脚本签到
+
+[Script]
+WPS_PC[签到] = type=cron,cronexp="{{{定时签到}}}",wake-system=1,script-update-interval=0,timeout=300,script-path=https://raw.githubusercontent.com/myouhi/Surge/master/tasks/js/wps.js
+
+{{{禁用脚本}}} = type=http-response,pattern=^https:\/\/(vip|account)(userinfo|\.wps\.cn\/p\/auth\/check)$,requires-body=1,max-size=0,debug=0,script-path=https://raw.githubusercontent.com/myouhi/Surge/master/tasks/cookie/wps.js
+
+[MITM]
+{{{禁用MITM}}} = %APPEND% *.wps.cn
