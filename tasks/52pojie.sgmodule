@@ -1,5 +1,5 @@
 #!name=吾爱破解 [签到]
-#!desc=每日定时签到，模块参数可调整签到时间。\n浏览器打开(https://www.52pojie.cn/home.php)登录账号后可获取签到Cookie.
+#!desc=每日定时签到，模块参数可调整签到时间。\n浏览器打开(https://www.52pojie.cn/home.php)登录账号后可自动获取Cookie.
 #!arguments=定时签到:0 9 * * *,禁用脚本:吾爱破解[Cookie],禁用MITM:hostname
 #!arguments-desc=定时签到：Cron表达式，默认每日 9:00 执行。\n\n禁用脚本：禁用获取授权脚本，输入 # 表示禁用。\n\n禁用MITM：禁用MITM主机名，输入 # 表示禁用。
 #!category=脚本签到
