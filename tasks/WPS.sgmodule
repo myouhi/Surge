@@ -1,5 +1,5 @@
 #!name=WPS_PC [签到]
-#!desc=每日定时签到，模块参数可调整签到时间。\n浏览器打开(https://vip.wps.cn/home)登录账号后自动获取Cookie.
+#!desc=每日定时签到，模块参数可调整签到时间。\n浏览器打开(https://vip.wps.cn/home)登录账号后可自动获取Cookie.
 #!arguments=定时签到:1 0 * * * ,禁用脚本:WPS_PC[Cookie],禁用MITM:hostname
 #!arguments-desc=定时签到：Cron表达式，默认每日 0点1 执行。\n\n禁用脚本：禁用获取授权脚本，输入 # 表示禁用。\n\n禁用MITM：禁用MITM主机名，输入 # 表示禁用。
 #!category=脚本签到
