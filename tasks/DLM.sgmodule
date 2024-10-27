@@ -1,0 +1,13 @@
+#!name=达美乐披萨 [抽奖]
+#!desc=每日定时签到，模块参数可调整签到时间。\n打开达乐美披萨公众号->优惠｜咨询->有奖游戏->手动完成一次游戏，若提示获取Cookie成功则可以使用该脚本
+#!arguments=定时签到:30 10 * * *,禁用脚本:达美乐披萨[Cookie],禁用MITM:hostname
+#!arguments-desc=定时签到：Cron表达式，默认每日 10:30 执行。\n\n禁用脚本：禁用获取授权脚本，输入 # 表示禁用。\n\n禁用MITM：禁用MITM主机名，输入 # 表示禁用。
+#!category=脚本签到
+
+[Script]
+达美乐披萨[抽奖] = type=cron,cronexp="{{{定时签到}}}",wake-system=1,script-update-interval=0,timeout=300,script-path=https://raw.githubusercontent.com/myouhi/Surge/master/tasks/js/dlm.js
+
+{{{禁用脚本}}} = type=http-response,pattern=^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone,requires-body=1,max-size=0,debug=0,script-path=https://raw.githubusercontent.com/myouhi/Surge/master/tasks/cookie/dlm.js
+
+[MITM]
+{{{禁用MITM}}} = %APPEND% game.dominos.com.cn
