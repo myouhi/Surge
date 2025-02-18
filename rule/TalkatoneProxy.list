@@ -2,8 +2,7 @@
 # UPDATED: 2024-06-25 20:27:30
 # DOMAIN-SUFFIX: 1
 
-# 这个域名最好走代理，我这边直连已超时
+# 这个域名最好走代理
 DOMAIN-SUFFIX,tktn.be
-DOMAIN-SUFFIX,tktn.at
 # 语音留言地址，一般需要代理
 DOMAIN-SUFFIX,vm.talkatone.com
