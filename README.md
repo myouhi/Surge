@@ -11,13 +11,17 @@ https://raw.githubusercontent.com/myouhi/Surge/master/conf/SurgeLite.conf
 ```Java
 https://raw.githubusercontent.com/myouhi/Surge/master/icon/icon.json
 ```
-签到Task链接：<br>
+节点过滤：<br>
 ```Java
-https://raw.githubusercontent.com/myouhi/Surge/master/tasks/Task.sgmodule
-```
-获取Cookie链接：<br>
-```Java
-https://raw.githubusercontent.com/myouhi/Surge/master/tasks/Cookie.sgmodule
+香港节点：(?i)(港|HK|Hong)
+台湾节点：(?i)(台|TW|Tai)
+狮城节点：(?i)(新加坡|坡|狮城|SG)
+美国节点：(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+日本节点：(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)
+韩国节点：(?i)(KR|Korea|KOR|首尔|韩|韓)
+英国节点：(?i)(英|UK|England)
+德国节点：(?i)(德国|DEU|DE|柏林|慕尼黑|汉堡|科隆)
+印度节点：(?i)(印度|IN|IND|孟买|新德里|高知|India)
 ```
 
 # 模块
