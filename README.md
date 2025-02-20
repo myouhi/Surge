@@ -3,8 +3,6 @@
 配置文件链接：<br>
 ```Java
 https://raw.githubusercontent.com/myouhi/Surge/master/conf/Surge.conf
-```
-```Java
 https://raw.githubusercontent.com/myouhi/Surge/master/conf/SurgeLite.conf
 ```
 图标仓库链接：<br>
