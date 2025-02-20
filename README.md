@@ -45,15 +45,13 @@ https://raw.githubusercontent.com/myouhi/Surge/master/icon/icon.json
 * [芒果TV会员](https://raw.githubusercontent.com/myouhi/Surge/master/module/MangGuoTV.sgmodule)
 * [屏蔽更新系统](https://raw.githubusercontent.com/myouhi/Surge/master/module/BlockUpdate.sgmodule)
 
-## BoxJs：<br>
-```
+## BoxJs
 > BoxJs 是一款运行在 Surge、Quantumult X、Loon、Shadowrocket、Stash 环境下的脚本！
 <table>
   <tr>
     <td>http://boxjs.com/</td>
   </tr>
 </table>
-```
 
 ## Script-Hub
 > 重写 & 规则集转换
