@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/myouhi/Surge/master/icon/icon.json
 * [屏蔽更新系统](https://raw.githubusercontent.com/myouhi/Surge/master/module/BlockUpdate.sgmodule)
 
 ## BoxJs：<br>
-```Java
+```
 > BoxJs 是一款运行在 Surge、Quantumult X、Loon、Shadowrocket、Stash 环境下的脚本！
 <table>
   <tr>
